@@ -373,6 +373,12 @@
   - "subsys/net/l2/wifi/**/*"
   - "subsys/net/l2/ethernet/**/*"
 
+"CI-wifi-soc-fpga":
+  - "soc/nordic/nrf71/**/*"
+  - "boards/nordic/nrf7120dk/**/*"
+  - "dts/**/nrf7120*"
+  - "dts/bindings/wifi/nordic,nrf7120-wifi.yaml"
+
 "CI-audio-test":
   - "boards/nordic/nrf5340_audio_dk/**/*"
   - "drivers/flash/**/*"
